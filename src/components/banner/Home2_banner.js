@@ -21,14 +21,14 @@ export class CarouselPage2 extends Component {
                     <img className="d-block w-100" src="./images/bg-image/slider-mainbg-003.jpg" alt="First slide" />
                 </MDBView>
                 <MDBCarouselCaption>
-                    <div className="container-xl d-flex">
+                    <div className="container-xl d-flex flex-wrap">
                         <div className="carousel-caption-inner">
                             <MDBAnimation className="slideInUp" count={1} delay="2.5s" >
                             <h2 className="ttm-textcolor-darkgrey">BEST <strong className="ttm-textcolor-skincolor">ASSESSMENT HELP</strong> FOR STUDENTS - NO. 1 WRITING SERVICE PROVIDER</h2>
                             </MDBAnimation>
                             <MDBAnimation className="slideInUp" count={1} delay="3s" >
                             <p className="text">TRUSTED BRAND FOR ASSESSMENT ANSWERS</p>
-                            <ul className="ttm-textcolor-darkgrey fs-20">
+                            <ul className="ttm-textcolor-darkgrey fs-20 effect">
                                     <li>250+ Subject matter subjects.</li>
                                     <li>Better grades in you assessments.</li>
                                     <li>24x7 online assessment Help.</li>
@@ -38,7 +38,7 @@ export class CarouselPage2 extends Component {
                                 </ul>
                             </MDBAnimation>                       
                         </div>
-                        <div className="d-inline-block effect position-relative">
+                        <div className="d-inline-block mt-4 mt-lg-0 mx-auto position-relative">
                             <Form/>
                         </div>
                     </div>

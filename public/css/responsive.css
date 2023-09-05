@@ -22,7 +22,7 @@
     transition: all .5s;
   }
   .ttm-header-style-01 .site-branding img {
-    max-height: 45px;
+    max-height: 56px;
   }
   .ttm-header-style-01 .ttm-stickable-header.fixed-header .site-header-menu, .ttm-header-style-01 .ttm-stickable-header.fixed-header .menu {
     height: 70px;
@@ -441,7 +441,7 @@
     text-align: center;
   }
   .site-branding img {
-    max-height: 40px;
+    max-height: 56px;
   }
   .ttm-right-header {
     height: 80px !important;
@@ -486,7 +486,7 @@
     height: auto;
   }
   #Home_banner .carousel-inner .carousel-item img, #Home_banner2 .carousel-inner .carousel-item img {
-    min-height: auto;
+    /* min-height: auto; */
   }
   .menu > label {
     background: #fff;
@@ -581,7 +581,7 @@
     height: auto;
   }
   #Home_banner .carousel-inner .carousel-item img, #Home_banner2 .carousel-inner .carousel-item img {
-    min-height: auto;
+    /* min-height: auto; */
   }
   #Home_banner .carousel-caption, #Home_banner2 .carousel-caption {
     padding: 30px 0 0;
@@ -786,7 +786,7 @@
     display: none !important;
   }
   #Home_banner .carousel-item .view img, #Home_banner2 .carousel-item .view img {
-    min-height: 300px;
+    /* min-height: 300px; */
   }
   .about-overlay-01 {
     font-size: 18px;

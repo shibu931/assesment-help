@@ -657,6 +657,7 @@ body .page .site-main {
 }
 
 .site-branding img {
+  width: 160px;
   max-height: 56px;
 }
 
