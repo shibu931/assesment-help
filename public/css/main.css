@@ -66,6 +66,40 @@
 /* ===============================================
     1. General
 ------------------------*/
+.whatsAppCTAWrp {
+  position: fixed;
+  bottom: 20px;
+  left: 21px;
+  z-index: 999;
+  background: #25d366;
+  width: 45px;
+  height: 45px;
+  border-radius: 7px;
+  transition: ease all 0.5s;
+  box-shadow: 1px 1px 4px #777;
+  overflow: hidden;
+}
+.whatsAppCTAWrp p {
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+.whtIcon img {
+  width: 30px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.whatsAppCTAWrp {position: fixed;bottom: 20px;left: 21px;z-index: 999;background: #25d366;width: 45px;height: 45px;border-radius: 7px;transition: ease all 0.5s;box-shadow: 1px 1px 4px #777;overflow: hidden;}
+.whtIcon img {width: 30px;margin: 0px auto;text-align: center;}
+.whatsAppCTAWrp p a {padding: 5px 5px;color: #fff;display: inline-block;line-height: normal;overflow: hidden;width: 100%;text-align: center;margin: 0px auto;}
+.whtIcon {float: left;width: auto;padding: 0 0px 0 0;margin-left: 3px;}
+span.whatsAppText { float: left; width: 84%; text-align: left; text-align-last: left; padding: 1px 0 0; display: none; }
+.whatsAppText strong { width: 100%; float: left; font-size: 15px; line-height: 15px; }
+.whatsAppText small { font-size: 14px; }
+.whatsAppCTAWrp:hover { width: 250px; }
+.whatsAppCTAWrp:hover .whatsAppText{display: block;}
+.whatsAppCTAWrp p { display: block; height: 100%; text-align: center;}
 /** Variables **/
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
