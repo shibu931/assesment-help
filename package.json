@@ -10,7 +10,7 @@
     "google-map-react": "^1.1.7",
     "jquery": "^3.5.1",
     "mdbootstrap": "^4.19.0",
-    "mdbreact": "^4.27.0",
+    "mdbreact": "^5.2.0",
     "react": "^16.13.1",
     "react-accessible-accordion": "^3.0.1",
     "react-animations": "^1.0.0",
@@ -25,13 +25,13 @@
     "react-modal-image": "^2.5.0",
     "react-progressbar": "^15.4.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.25.2",
     "react-tabbordion": "^1.0.5",
     "react-tabs": "^3.1.0",
     "react-use": "^15.2.2",
-    "react-webpack": "^0.4.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "start": "react-scripts start",
