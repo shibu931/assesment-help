@@ -6,7 +6,7 @@ export class Footer extends Component {
             <footer className="footer widget-footer clearfix">
                 {this.props.children}
 
-                <div className="second-footer ttm-textcolor-white bg-img2">
+                <div className="second-footer ttm-textcolor-white bg-img2" id="contact">
                     <div className="container-xl">
                         <div className="row">
                             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
@@ -80,8 +80,8 @@ export class Footer extends Component {
                                             <ul className="list-inline">
                                                 <li className="social-facebook"><a href="https://www.facebook.com/assessmenthelpofficial" className="tooltip-top rounded-circle" target="_blank" data-tooltip="Facebook"><i className="fab fa-facebook-f" /></a></li>
                                                 <li className="social-twitter"><a href="https://twitter.com/assessmentshelp" className="tooltip-top rounded-circle" target="_blank" data-tooltip="Twitter"><i className="fab fa-twitter" /></a></li>
-                                                <li className="social-flickr"><a href="https://www.instagram.com/assessmenthelpofficial/" className="tooltip-top rounded-circle" target="_blank" data-tooltip="flickr"><i className="fab fa-instagram" /></a></li>
-                                                <li className="social-linkedin"><a href="https://www.linkedin.com/company/assesment-help/" className="tooltip-top rounded-circle" target="_blank" data-tooltip="aedIn"><i className="fab fa-linkedin-in" /></a></li>
+                                                <li className="social-flickr"><a href="https://www.instagram.com/assessmenthelpofficial/" className="tooltip-top rounded-circle" target="_blank" data-tooltip="Instagram"><i className="fab fa-instagram" /></a></li>
+                                                <li className="social-linkedin"><a href="https://www.linkedin.com/company/assesment-help/" className="tooltip-top rounded-circle" target="_blank" data-tooltip="Linkedin"><i className="fab fa-linkedin-in" /></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -118,7 +118,7 @@ export class Footer extends Component {
                 </div>
                 <div class="whatsAppCTAWrp box">
                     <p> <a href="javascript:void(0);" onclick="gtag_report_conversion();">
-                        <span class="whtIcon"><img src="./images/whatsapp-brands.svg"alt="need assignment help"/></span> <span class="whatsAppText"><strong>&nbsp Get 500 Words Free</strong><small>&nbsp Instant Expert Help</small></span></a>
+                        <span class="whtIcon"><img src="./images/whatsapp-brands.svg"alt="need assignment help"/></span> <span class="whatsAppText"><strong>Get 500 Words Free</strong><small>&nbsp Instant Expert Help</small></span></a>
                     </p>
                 </div>
             </footer>

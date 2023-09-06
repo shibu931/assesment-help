@@ -144,7 +144,7 @@ export class Home2_mainpage extends Component {
 
         ]
         return (
-          <div className="site-main"> 
+          <div className="site-main" >  
             <section className="ttm-row aboutus-section-style2 clearfix">
               <div className="container-xl">
                 <div className="row no-gutters align-items-center">{/* row */}
@@ -261,7 +261,7 @@ export class Home2_mainpage extends Component {
                     </div>
                     
                 </section>
-            <section className="ttm-row bottomzero-padding-section bg-img6 position-relative z-1 clearfix">
+            <section className="ttm-row bottomzero-padding-section bg-img6 position-relative z-1 clearfix" id="services">
               <div className="container-xl">
                 <div className="row no-gutters">
                   <div className="col-lg-10 mb_80 res-991-mb-0">
@@ -456,27 +456,27 @@ export class Home2_mainpage extends Component {
                       <div className="layer-content position-relative">
                         <div className="spacing-6 py-5 ttm-textcolor-white">
                           <div className='row'>
-                            <div className='col-md-4 mx-auto'>
+                            <div className='col-md-4 mx-auto mb-4 mb-md-0'>
                             <div className='d-flex'>
-                                <img src="./images/confidentiality.webp"/>
+                                <img src="./images/confidentiality.webp" width={95}/>
                                 <div>
                                   <h4 className='mb-0 mt-3'><strong>24x7 Support</strong></h4>
                                   <p>Call, Chats and WhatsApp Available</p>
                                 </div>
                               </div>
                             </div>
-                            <div className='col-md-4 mx-auto'>
+                            <div className='col-md-4 mx-auto mb-4 mb-md-0'>
                             <div className='d-flex'>
-                                <img src="./images/chats.webp"/>
+                                <img src="./images/chats.webp" width={95}/>
                                 <div>
                                   <h4 className='mb-0 mt-3'><strong>100% Confidentiality</strong></h4>
                                   <p>confidentiality is our priority</p>
                                 </div>
                               </div>
                             </div>
-                            <div className='col-md-4 mx-auto'>
+                            <div className='col-md-4 mx-auto mb-md-0'>
                             <div className='d-flex'>
-                                <img src="./images/guaranteed.webp"/>
+                                <img src="./images/guaranteed.webp" width={95}/>
                                 <div>
                                   <h4 className='mb-0 mt-3'><strong>100% Security</strong></h4>
                                   <p>Guaranteed secure & safe transition</p>
@@ -519,7 +519,7 @@ export class Home2_mainpage extends Component {
 
             {/* tab section end */}
             {/* testimonial section */}
-            <section className="ttm-row bottomzero-padding-section ttm-bgcolor-grey ttm-bg ttm-bgimage-yes bg-img8 clearfix">
+            <section className="ttm-row bottomzero-padding-section ttm-bgcolor-grey ttm-bg ttm-bgimage-yes bg-img8 clearfix" id="writinghelp">
               <div className="ttm-row-wrapper-bg-layer ttm-bg-layer" />
               <div className="container-xl pb-5">
                 <div className="row">{/* row */}
@@ -554,7 +554,7 @@ export class Home2_mainpage extends Component {
                       <div className='col-sm-6 mb-5'>
                           <div className='border rounded shadow box-size-10 p-5 bg-white'>
                               <div className='d-flex pb-4'>
-                                <img src='./images/AcademicWritingService.webp' className='mr-4'/>
+                                <img src='./images/AcademicWritingService.webp' width={72} height={72} className='mr-4'/>
                                 <h4>Can Someone Do My Assessment For Me?</h4>
                               </div>
                               <p>
@@ -565,7 +565,7 @@ export class Home2_mainpage extends Component {
                       <div className='col-sm-6 mb-5'>
                           <div className='border rounded shadow box-size-10 p-5 bg-white'>
                               <div className='d-flex pb-4'>
-                                <img src='./images/Online-Exams-.webp' className='mr-4'/>
+                                <img src='./images/Online-Exams-.webp'  width={72} height={72} className='mr-4'/>
                                 <h4>Why I Have To Choose Assessment Help?</h4>
                               </div>
                               <p>
@@ -587,7 +587,7 @@ export class Home2_mainpage extends Component {
                       <div className='col-sm-6 mb-5'>
                           <div className='border rounded shadow box-size-10 p-5 bg-white'>
                               <div className='d-flex pb-4'>
-                                <img src='./images/AcademicWritingService.webp' className='mr-4'/>
+                                <img src='./images/AcademicWritingService.webp'  width={72} height={72} className='mr-4'/>
                                 <h4>Can You Guarantee Plagiarism Free Assessment?</h4>
                               </div>
                               <p>
@@ -600,7 +600,7 @@ export class Home2_mainpage extends Component {
             </section>
             {/* testimonial section end */}
 
-            <section className="ttm-row tab-section clearfix pb-0">
+            <section className="ttm-row tab-section clearfix pb-0" id="faqs">
               <div className="container-xl">
                 <div className="row">
                   <div className="col-md-12">
@@ -913,7 +913,7 @@ Questionable Referencing: It is mandatory to study the description of the task t
             </section>
             {/* our-partner-section end */}
             {/* blog-section */}
-            <section className="ttm-row blog-section clearfix">
+            <section className="ttm-row blog-section clearfix" id="reviews">
               <div className="container-xl">
                 <div className="row">
                   <div className="col-md-12">

@@ -21,7 +21,7 @@ export class CarouselPage2 extends Component {
                     <img className="d-block w-100" src="./images/bg-image/slider-mainbg-003.jpg" alt="First slide" />
                 </MDBView>
                 <MDBCarouselCaption>
-                    <div className="container-xl d-flex flex-wrap">
+                    <div className="container-xl d-flex flex-wrap" id="home">
                         <div className="carousel-caption-inner">
                             <MDBAnimation className="slideInUp" count={1} delay="2.5s" >
                             <h2 className="ttm-textcolor-darkgrey">BEST <strong className="ttm-textcolor-skincolor">ASSESSMENT HELP</strong> FOR STUDENTS - NO. 1 WRITING SERVICE PROVIDER</h2>

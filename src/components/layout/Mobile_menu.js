@@ -28,89 +28,22 @@ render() {
               <MDBCollapse isOpen={this.state.collapse1} navbar>
                 <MDBNavbarNav left>
                   <MDBNavItem active>
-                    <a>Home</a>
+                    <MDBNavLink to="#home">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBDropdown>
-                        <MDBDropdownToggle nav caret>
-                            <span>pages</span>
-                        </MDBDropdownToggle>
-                        <MDBDropdownMenu>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Aboutus_01'}>About Us 1</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Aboutus_02'}>About Us 2</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Services_01'}>Services 1</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Services_02'}>Services 2</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Our_expert'}>Our Expert</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Faq'}>FAQs</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Contact_01'}>Contact Us 1</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Contact_02'}>Contact Us 2</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Error'}>Error Page</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Element'}>Elements</MDBDropdownItem>
-                        </MDBDropdownMenu>
-                    </MDBDropdown>
+                    <MDBNavLink to="#services">Services</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBDropdown>
-                        <MDBDropdownToggle nav caret>
-                            <span>services</span>
-                        </MDBDropdownToggle>
-                        <MDBDropdownMenu>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/It_consultancy'}>IT Consultancy</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Digital_services'}>Digital Services</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Advisory_services'}>Advisory Services</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Data_structuring'}>Data Structuring</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Experience_design'}>Experience Design</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Content_engineering'}>Content Engineering</MDBDropdownItem>
-                        </MDBDropdownMenu>
-                    </MDBDropdown>
+                    <MDBNavLink to="#writinghelp">Writing Help</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBDropdown>
-                        <MDBDropdownToggle nav caret>
-                            <span>Project</span>
-                        </MDBDropdownToggle>
-                        <MDBDropdownMenu>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Project_style1'}>Project Style 1</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Project_style2'}>Project Style 2</MDBDropdownItem>
-                            <MDBDropdown>
-                                <MDBDropdownToggle nav caret>
-                                    <span>Project Single</span>
-                                </MDBDropdownToggle>
-                                <MDBDropdownMenu>
-                                    <MDBDropdownItem href={process.env.PUBLIC_URL + '/Single_style1'}>Single Style 01</MDBDropdownItem>
-                                    <MDBDropdownItem href={process.env.PUBLIC_URL + '/Single_style2'}>Single Style 02</MDBDropdownItem>
-                                    <MDBDropdownItem href={process.env.PUBLIC_URL + '/Single_style3'}>Single Style 03</MDBDropdownItem>
-                                </MDBDropdownMenu>
-                            </MDBDropdown>
-                            </MDBDropdownMenu>
-                    </MDBDropdown>
+                    <MDBNavLink to="#faqs">FAQs</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBDropdown>
-                        <MDBDropdownToggle nav caret>
-                            <span>Blog</span>
-                        </MDBDropdownToggle>
-                        <MDBDropdownMenu>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Blog'}>Blog Classic</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Blog_grid'}>Blog Grid View</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Blog_top_image'}>Blog Top Image</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Blog_left_image'}>Blog Left Image</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Single_blog'}>Blog Single View</MDBDropdownItem>
-                        </MDBDropdownMenu>
-                    </MDBDropdown>
+                    <MDBNavLink to="#reviews">Review</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBDropdown>
-                        <MDBDropdownToggle nav caret>
-                            <span>Shop</span>
-                        </MDBDropdownToggle>
-                        <MDBDropdownMenu>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Shop'}>Default Shop</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Product_details'}>Single Product Details</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Cart'}>Cart</MDBDropdownItem>
-                            <MDBDropdownItem href={process.env.PUBLIC_URL + '/Checkout'}>Checkout</MDBDropdownItem>
-                        </MDBDropdownMenu>
-                    </MDBDropdown>
+                    <MDBNavLink to="#contact">Contact US</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
