@@ -392,7 +392,7 @@ export class Home2_mainpage extends Component {
                     <div className="featured-icon-box style5 text-left">
                       <div className="featured-icon">{/* featured-icon*/}
                         <div className="ttm-icon ttm-icon_element-size-lg"> 
-                          <i className="flaticon flaticon-analysis" />
+                          <i className="flaticon flaticon-clock" />
                         </div>
                       </div>{/* featured-icon */}
                       <div className="featured-content">{/* featured-content */}
@@ -410,7 +410,7 @@ export class Home2_mainpage extends Component {
                     <div className="featured-icon-box style5 text-left">
                       <div className="featured-icon">{/* featured-icon*/}
                         <div className="ttm-icon ttm-icon_element-size-lg"> 
-                          <i className="flaticon flaticon-analysis" />
+                          <i className="flaticon flaticon-24h" />
                         </div>
                       </div>{/* featured-icon */}
                       <div className="featured-content">{/* featured-content */}
@@ -428,7 +428,7 @@ export class Home2_mainpage extends Component {
                     <div className="featured-icon-box style5 text-left">
                       <div className="featured-icon">{/* featured-icon*/}
                         <div className="ttm-icon ttm-icon_element-size-lg"> 
-                          <i className="flaticon flaticon-analysis" />
+                          <i className="flaticon flaticon-data-analytics" />
                         </div>
                       </div>{/* featured-icon */}
                       <div className="featured-content">{/* featured-content */}
