@@ -12,5 +12,5 @@ export default function Form() {
           var formsappForm = new window.formsapp('64f677b4f0b17b03a7441533', 'standard', {"width":"100%","height":"500px","opacity":0});
         }
       },[])
-  return <div formsappId="64f677b4f0b17b03a7441533"></div>
+  return <div formsappId="64f677b4f0b17b03a7441533" className='w-100'></div>
 }

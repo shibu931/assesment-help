@@ -66,6 +66,49 @@
 /* ===============================================
     1. General
 ------------------------*/
+.carousel{
+  padding: 0 0!important;
+}
+td{
+  padding: 10px;
+}
+.accordion-item:first-of-type .accordion-button{
+  border-top-left-radius: unset!important;
+      border-top-right-radius: unset!important;
+  }
+  
+  .accordion-button:hover{
+  color:#fff;
+  background-color: #2d4a8a;
+  }
+  
+  .accordion-button:not(.collapsed) {
+      color: #fff!important;
+      background-color: #2d4a8a!important;
+      box-shadow: unset!important;
+  }
+
+  .accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: unset!important;
+    border-bottom-left-radius: unset!important;
+  }
+
+  .accordion-button{
+    border:1px solid rgba(47,47,47,0.3)!important;
+  }
+  .accordion-button:not(.collapsed)::after{
+    filter: invert();
+  }
+  .accordion-item{
+    border:none!important;
+    padding-bottom: 20px;
+  }
+  .accordion-button:focus{
+  box-shadow:unset!important;
+  }
+  .accordion-button::after:hover{
+    filter: invert();
+  }
 .whatsAppCTAWrp {
   position: fixed;
   bottom: 20px;
@@ -141,7 +184,7 @@ ol, ul {
 }
 
 iframe {
-  width: 100%;
+  width: 100%!important;
   border: none;
   display: block;
 }
@@ -1437,10 +1480,10 @@ li.menu-hasdropdown ul li a {
 }
 
 #Home_banner .carousel-caption-inner h2, #Home_banner2 .carousel-caption-inner h2 {
-  line-height: 70px;
+  line-height: 60px;
   letter-spacing: 0px;
   font-weight: 600;
-  font-size: 56px;
+  font-size: 50px;
 }
 
 #Home_banner .carousel-caption-inner p, #Home_banner2 .carousel-caption-inner p {
