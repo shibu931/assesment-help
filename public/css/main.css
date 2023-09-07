@@ -66,6 +66,9 @@
 /* ===============================================
     1. General
 ------------------------*/
+.slick-arrow{
+  display: none!important;
+}
 #menu ul{
   margin-bottom: 0!important;
 }

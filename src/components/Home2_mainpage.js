@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import Slider from 'react-slick';
 import CountUp from 'react-countup';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -17,9 +17,11 @@ export class Home2_mainpage extends Component {
       arrow: false,
       autoplay: true,
       infinite: true,
+      autoplaySpeed:0,
+      cssEase: 'linear',
       speed: 2000,
       slidesToShow: 4,
-      slidesToScroll: 2,
+      slidesToScroll: 1,
 
       responsive: [{
 
@@ -56,10 +58,12 @@ export class Home2_mainpage extends Component {
     var slick_slider = {
       dots: false,
       arrow: false,
-      autoplay: true,
       infinite: true,
-      speed: 500,
+      autoplay:true,
+      speed: 5000,
       slidesToShow: 4,
+      autoplaySpeed:0,
+      cssEase: 'linear',
       slidesToScroll: 1,
 
       responsive: [{
@@ -876,7 +880,7 @@ export class Home2_mainpage extends Component {
                 {/* section title */}
                 <div className="section-title text-center with-desc clearfix">
                   <div className="title-header">
-                    <h5><span className='text-warning'>4.8</span>Star Rating</h5>
+                    <h5><span className='text-warning'>4.8</span> Star Rating</h5>
                     <h2 className="title">Reviews, Comments And <span>Love From Students</span></h2>
                   </div>
                 </div>{/* section title end */}
