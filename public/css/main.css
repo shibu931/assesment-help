@@ -66,6 +66,14 @@
 /* ===============================================
     1. General
 ------------------------*/
+#menu ul{
+  margin-bottom: 0!important;
+}
+
+a{
+  text-decoration: none!important;
+}
+
 .carousel{
   padding: 0 0!important;
 }

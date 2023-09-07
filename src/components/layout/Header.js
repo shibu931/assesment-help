@@ -27,13 +27,13 @@ export class Header extends Component {
                                 </ul>
                             <div className="ttm-social-links-wrapper list-inline">
                                 <ul className="social-icons">
-                                    <li><a className=" tooltip-bottom" href='https://www.facebook.com/assessmenthelpofficial' data-tooltip="Facebook"><i className="fab fa-facebook-f" /></ a>
+                                    <li><a className="tooltip-bottom" target='_blank' href='https://www.facebook.com/assessmenthelpofficial' data-tooltip="Facebook"><i className="fab fa-facebook-f" /></ a>
                                     </li>
-                                    <li><a className=" tooltip-bottom" href='https://twitter.com/assessmentshelp' data-tooltip="Twitter"><i className="fab fa-twitter" /></ a>
+                                    <li><a className="tooltip-bottom" target='_blank' href='https://twitter.com/assessmentshelp' data-tooltip="Twitter"><i className="fab fa-twitter" /></ a>
                                     </li>
-                                    <li><a className=" tooltip-bottom" href='https://www.instagram.com/assessmenthelpofficial/' data-tooltip="Instagram"><i className="fab fa-instagram" /></ a>
+                                    <li><a className="tooltip-bottom" target='_blank' href='https://www.instagram.com/assessmenthelpofficial/' data-tooltip="Instagram"><i className="fab fa-instagram" /></ a>
                                     </li>
-                                    <li><a className=" tooltip-bottom" href='https://www.linkedin.com/company/assesment-help/' data-tooltip=" aedin"><i className="fab fa-linkedin-in" /></ a>
+                                    <li><a className="tooltip-bottom" target='_blank' href='https://www.linkedin.com/company/assesment-help/' data-tooltip=" aedin"><i className="fab fa-linkedin-in" /></ a>
                                     </li>
                                 </ul>
                             </div>

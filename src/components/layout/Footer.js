@@ -39,30 +39,24 @@ export class Footer extends Component {
                             </div>
                             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                                 <div className="widget link-widget clearfix">
-                                    <h3 className="widget-title">Information</h3>
-                                    <ul id="menu-footer-services">
-                                        <li><a >Assignment Order</a></li>
-                                        <li><a >Student review</a></li>
-                                        <li><a >Academic Writing Offers</a></li>
-                                        <li><a >Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area res-991-mb-40 res-767-mb-0">
-                                <div className="widget link-widget clearfix">
                                     <h3 className="widget-title">Assignment Services</h3>
                                     <ul id="menu-footer-services">
                                         <li><a href='#'>Nursing Assignment Help</a></li>
                                         <li><a href='#'>Management Assignment Help</a></li>
                                         <li><a href='#'>Accounting Assignment Help</a></li>
                                         <li><a href='#'>Marketing Assignment Help</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area res-991-mb-40 res-767-mb-0">
+                                <div className="widget link-widget clearfix">
+                                    <ul id="menu-footer-services">
+                                        <br className='d-none d-lg-block'/>
+                                        <br className='d-none d-lg-block'/>
                                         <li><a href='#'>Finance Assignment Help</a></li>
                                         <li><a href='#'>Programming Assignment Help</a></li>
                                         <li><a href='#'>TAFE Assignment Help</a></li>
                                         <li><a href='#'>MATLAB Assignment Help</a></li>
-                                        <li><a href='#'>Law Assignment Help</a></li>
-                                        <li><a href='#'>Engineering Assignment Help</a></li>
-                                        <li><a href='#'>All Assignment Help</a></li>
                                     </ul>
                                 </div>
                             </div>
